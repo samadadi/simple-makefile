@@ -1,7 +1,7 @@
 CC = gcc
 CPPFLAGS = -Iinc -Isrc
 CFLAGS = -Wall -pthread
-LDLIBS = -lm -lpthread -lxcb -lvulkan
+LDLIBS = -lm -lpthread 
 
 SRC = src
 OBJ = obj
