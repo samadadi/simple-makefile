@@ -1,5 +1,5 @@
 CC = gcc
-CPPFLAGS = -Iinc -Isrc
+CPPFLAGS = -Iinclude -Isrc
 CFLAGS = -Wall -pthread
 LDLIBS = -lm -lpthread 
 
